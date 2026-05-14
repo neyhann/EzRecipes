@@ -1,0 +1,51 @@
+#   ___________      __________              .__                    
+#   \_   _____/______\______   \ ____   ____ |__|_____   ____   ______
+#    |    __)_\___   /|       _// __ \_/ ___\|  \____ \_/ __ \ /  ___/
+#    |        \/    / |    |   \  ___/\  \___|  |  |_> >  ___/ \___ \ 
+#   /_______  /_____ \|____|_  /\___  >\___  >__|   __/ \___  >____  >
+#           \/      \/       \/     \/     \/   |__|        \/     \/ 
+
+no_permission: "{prefix}&cYou don't have permission to do that."
+player_only: "{prefix}&cOnly players can use this command."
+
+unknown_command: "{prefix}&cUnknown command. Use &e/ezrecipes help"
+
+add:
+  no_item: "{prefix}&cHold an item in your hand first!"
+  empty_grid: "{prefix}&cPlace at least one ingredient in the crafting grid."
+  no_result: "{prefix}&cNo result item set."
+  success: "{prefix}&aRecipe &e{recipe_id} &aadded!"
+  overwrite_failed: "{prefix}&cA recipe with that ID already exists."
+  cancelled: "{prefix}&7Recipe creation cancelled."
+  mode_shaped: "{prefix}&7Mode: &eShaped"
+  mode_shapeless: "{prefix}&7Mode: &eShapeless"
+
+remove:
+  usage: "{prefix}&cUsage: &e/ezrecipes remove <recipe_id>"
+  not_found: "{prefix}&cRecipe &e{recipe_id} &cnot found."
+  success: "{prefix}&aRecipe &e{recipe_id} &aremoved!"
+
+list:
+  header: "{prefix}&6--- Recipes (Page {current}/{total}) ---"
+  entry: " &8» &e{recipe_id} &7- &f{item_name}"
+  footer: "{prefix}&7Next page: &e/ezrecipes list {next_page}"
+  empty: "{prefix}&7No recipes saved yet."
+  invalid_page: "{prefix}&cInvalid page number."
+
+reload:
+  success: "{prefix}&aConfig reloaded!"
+
+help:
+  header: "&8&m                    &r &6EzRecipes Help &8&m                    "
+  add: " &e/ezrecipes add &8- &7Add recipe from held item"
+  remove: " &e/ezrecipes remove <id> &8- &7Remove a recipe"
+  list: " &e/ezrecipes list [page] &8- &7List all recipes"
+  reload: " &e/ezrecipes reload &8- &7Reload config"
+  player: " &e/recipes [page] &8- &7Browse recipes GUI"
+  footer: "&8&m                                                        "
+
+browser:
+  invalid_page: "{prefix}&cInvalid page number."
+
+broadcast:
+  recipe_added: "{prefix}&e{player} &7added recipe &e{recipe_id}&7."

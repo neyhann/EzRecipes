@@ -1,0 +1,21 @@
+# =========================================
+#         EzRecipes Configuration
+#          Simple SMP Recipes
+# =========================================
+
+# General Settings
+general:
+  # Whether to broadcast to admins when a recipe is added
+  broadcast-add: true
+  # Whether to allow overwriting existing recipes
+  allow-overwrite: false
+
+# Pagination Settings
+pagination:
+  # Number of recipes per page in the GUI browser
+  recipes-per-page: 21
+  # Number of recipes per page in chat list
+  chat-per-page: 10
+
+# Message prefix (supports & color codes)
+prefix: "&8[&6EzRecipes&8] &7"

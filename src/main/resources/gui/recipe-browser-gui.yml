@@ -1,0 +1,91 @@
+#   ___________      __________              .__                    
+#   \_   _____/______\______   \ ____   ____ |__|_____   ____   ______
+#    |    __)_\___   /|       _// __ \_/ ___\|  \____ \_/ __ \ /  ___/
+#    |        \/    / |    |   \  ___/\  \___|  |  |_> >  ___/ \___ \ 
+#   /_______  /_____ \|____|_  /\___  >\___  >__|   __/ \___  >____  >
+#           \/      \/       \/     \/     \/   |__|        \/     \/ 
+
+title: "&8\u2699 Recipes"
+
+# Number of rows (1-6)
+rows: 5
+
+# Filler (border only - top and bottom rows)
+filler:
+  material: "BLACK_STAINED_GLASS_PANE"
+  name: " "
+  lore: []
+  glow: false
+
+# Buttons
+buttons:
+  previous:
+    slot: 36
+    material: "ARROW"
+    name: "&e\u25C0 Previous"
+    lore:
+      - "&7Page {prev}/{total}"
+    glow: false
+
+  next:
+    slot: 44
+    material: "ARROW"
+    name: "&eNext \u25B6"
+    lore:
+      - "&7Page {next}/{total}"
+    glow: false
+
+# Display items
+items:
+  # Page indicator
+  page_indicator:
+    slot: 40
+    material: "PAPER"
+    name: "&6Page {current}/{total}"
+    lore:
+      - "&7Click a recipe to view it"
+    glow: false
+
+  # Empty state
+  empty_state:
+    slot: 22
+    material: "BARRIER"
+    name: "&cNo Recipes Yet"
+    lore:
+      - "&7Use &e/ezrecipes add &7to create one!"
+    glow: false
+
+  # Recipe display template (lore appended to recipe items)
+  recipe_display:
+    material: "AIR"
+    name: "{item_name}"
+    lore:
+      - ""
+      - "&8ID: {recipe_id}"
+      - "&8Type: {recipe_type}"
+      - ""
+      - "&eClick to view"
+    glow: false
+
+  # 21 recipe slots (3 rows x 7 columns)
+  recipe_1:  {slot: 10, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_2:  {slot: 11, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_3:  {slot: 12, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_4:  {slot: 13, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_5:  {slot: 14, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_6:  {slot: 15, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_7:  {slot: 16, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_8:  {slot: 19, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_9:  {slot: 20, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_10: {slot: 21, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_11: {slot: 22, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_12: {slot: 23, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_13: {slot: 24, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_14: {slot: 25, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_15: {slot: 28, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_16: {slot: 29, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_17: {slot: 30, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_18: {slot: 31, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_19: {slot: 32, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_20: {slot: 33, material: "AIR", name: " ", lore: [], glow: false}
+  recipe_21: {slot: 34, material: "AIR", name: " ", lore: [], glow: false}

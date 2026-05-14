@@ -1,0 +1,26 @@
+name: EzRecipes
+version: 1.0.0
+main: com.ezrecipes.EzRecipes
+api-version: '1.20'
+description: Simple recipe crafting & viewer for small SMPs
+author: Nehan
+
+commands:
+  ezrecipes:
+    description: Admin command for recipe management
+    aliases: [ezr]
+    permission: ezrecipes.admin
+    usage: /ezrecipes <add|remove|list|reload|help>
+  recipes:
+    description: Browse and view saved recipes
+    aliases: [recipelist]
+    permission: ezrecipes.use
+    usage: /recipes [page]
+
+permissions:
+  ezrecipes.admin:
+    description: Allows access to all admin commands
+    default: op
+  ezrecipes.use:
+    description: Allows players to browse recipes
+    default: true

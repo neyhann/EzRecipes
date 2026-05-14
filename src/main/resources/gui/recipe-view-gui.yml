@@ -1,0 +1,66 @@
+#   ___________      __________              .__                    
+#   \_   _____/______\______   \ ____   ____ |__|_____   ____   ______
+#    |    __)_\___   /|       _// __ \_/ ___\|  \____ \_/ __ \ /  ___/
+#    |        \/    / |    |   \  ___/\  \___|  |  |_> >  ___/ \___ \ 
+#   /_______  /_____ \|____|_  /\___  >\___  >__|   __/ \___  >____  >
+#           \/      \/       \/     \/     \/   |__|        \/     \/ 
+
+title: "&8\u2699 View Recipe"
+
+# Number of rows (1-6)
+rows: 5
+
+# Filler (border decoration)
+filler:
+  material: "BLACK_STAINED_GLASS_PANE"
+  name: " "
+  lore: []
+  glow: false
+
+# Crafting grid slot mapping (read-only display)
+slots:
+  crafting:
+    A1: 10
+    A2: 11
+    A3: 12
+    B1: 19
+    B2: 20
+    B3: 21
+    C1: 28
+    C2: 29
+    C3: 30
+
+# Buttons
+buttons:
+  back:
+    slot: 36
+    material: "ARROW"
+    name: "&e\u25C0 Back"
+    lore:
+      - "&7Return to recipe browser"
+    glow: false
+
+# Display items
+items:
+  result:
+    slot: 32
+    material: "AIR"
+    name: " "
+    lore: []
+    glow: false
+
+  arrow:
+    slot: 23
+    material: "ARROW"
+    name: "&6\u279C"
+    lore:
+      - "&7Ingredients &8\u2192 &7Result"
+    glow: false
+
+  recipe_type:
+    slot: 40
+    material: "PAPER"
+    name: "&6Type: {recipe_type}"
+    lore:
+      - "&7This recipe is &f{recipe_type}"
+    glow: false

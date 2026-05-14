@@ -1,0 +1,79 @@
+#   ___________      __________              .__                    
+#   \_   _____/______\______   \ ____   ____ |__|_____   ____   ______
+#    |    __)_\___   /|       _// __ \_/ ___\|  \____ \_/ __ \ /  ___/
+#    |        \/    / |    |   \  ___/\  \___|  |  |_> >  ___/ \___ \ 
+#   /_______  /_____ \|____|_  /\___  >\___  >__|   __/ \___  >____  >
+#           \/      \/       \/     \/     \/   |__|        \/     \/ 
+
+title: "&8\u2699 Create Recipe"
+
+# Number of rows (1-6)
+rows: 5
+
+# Filler (border decoration)
+filler:
+  material: "BLACK_STAINED_GLASS_PANE"
+  name: " "
+  lore: []
+  glow: false
+
+# Crafting grid slot mapping
+# 3x3 grid positioned on left side of GUI
+slots:
+  crafting:
+    A1: 10
+    A2: 11
+    A3: 12
+    B1: 19
+    B2: 20
+    B3: 21
+    C1: 28
+    C2: 29
+    C3: 30
+
+# Buttons
+buttons:
+  confirm:
+    slot: 34
+    material: "LIME_DYE"
+    name: "&a&lConfirm"
+    lore:
+      - "&7Click to save this recipe"
+    glow: false
+
+  cancel:
+    slot: 16
+    material: "BARRIER"
+    name: "&c&lCancel"
+    lore:
+      - "&7Click to cancel"
+    glow: false
+
+  mode_toggle:
+    slot: 25
+    material: "REPEATER"
+    name: "&e&lMode: {recipe_type}"
+    lore:
+      - "&7Current: &f{recipe_type}"
+      - ""
+      - "&7Click to toggle"
+      - "&8Shaped = exact positions"
+      - "&8Shapeless = any order"
+    glow: false
+
+# Display items
+items:
+  result:
+    slot: 32
+    material: "AIR"
+    name: " "
+    lore: []
+    glow: false
+
+  arrow:
+    slot: 23
+    material: "ARROW"
+    name: "&6\u279C"
+    lore:
+      - "&7Ingredients &8\u2192 &7Result"
+    glow: false
