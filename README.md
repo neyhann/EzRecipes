@@ -35,6 +35,6 @@ Located in `plugins/EzRecipes/config.yml.`
 ## Support
 
 For issues, feature requests, or questions:
-1. Check the [GitHub Issues](https://github.com/EzRecipes/issues)
+1. Check the [GitHub Issues](https://github.com/neyhann/EzRecipes/issues)
 2. DM us on discord @nehanlol or @1904ok
 
